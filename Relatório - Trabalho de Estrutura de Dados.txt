@@ -1,0 +1,35 @@
+
+Para construção do código, foram almejadas como principais metas a simplicidade,
+facilidade de entendimento e eficácia de código.
+
+1º Passo (Usuário digitar o tamanho do vetor)
+Foi criada uma variável tamanhoVetor ja solicitando através do JOptiopane Input 
+o tamanho do vetor para o usuário.
+
+2º Passo (Criação do vetor)
+O vetor foi criado utilizando o int e o new int agregando o valor do tamanhoVetor 
+digitado pelo usuário.
+
+3º Passo (Usuário inserir o valor para cada posição do tamanho do vetor digitado)
+Para essa função, foi utilizado o (for) com os parâmetros de i. Em seguida criado o vetor[i]
+recebendo o valor de cada elemento transformado de String para int com o Integer.parseInt 
+juntamente com o JOptionPane Input
+
+4º Passo (Impressão dos valores escolhidos)
+Para receber os valores da posições, criada variável vetorEscolha, logo em seguida utilizado
+o for com parâmetros do i e atribuindo mais atributos a varíavel utilizando o += para impressão
+no JOptionPane Message
+
+5º Passo (Menu de opções para selecionar o metodo de ordenação)
+Para esse passo foi criado uma variável String escolha com as informações necessárias 
+para o usuário selecionar logo após com a utilização do Switch case.
+
+6º Passo (Função para retornar valor do metodo de ordenação selecionado)
+Utilizando o Switch case com as opções 1, 2 e 3 para os metodos selecionados.
+
+7º Passo (Métodos de ordenação)
+Para realizar as ordenações, foi criado um método público para cada, com parâmetro de vetor.
+Metodo para ordenar criados com base nos ensinamentos em sala.
+OBS: Após função para ordenar, criado variável juntamente com o for e parâmentros de i
+para imprimir o vetor ordenado (em cada metodo). 
+
